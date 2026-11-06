@@ -1,0 +1,14 @@
+{
+    "id": "cvesmic",
+    "name": "CVEsmic",
+    "capabilities": ["daemon"],
+    "category": "monitoring",
+    "repo": "https://github.com/CodeForBreakfast/cvesmic",
+    "path": "plugin/cvesmic",
+    "author": "Graeme Foster",
+    "description": "Shakes your whole desktop when a new vulnerability lands in the pwn.watch feed, gently for a low-severity item and hardest for a critical one. When the shaking stops, a notification names each new item and its severity, and a click opens it on pwn.watch. The feed address is the one setting.",
+    "dependencies": ["xdg-utils"],
+    "compositors": ["niri", "hyprland", "sway"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/CodeForBreakfast/cvesmic/main/docs/shake.gif"
+}
